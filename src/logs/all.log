@@ -1,0 +1,101 @@
+2023-05-11 15:54:13 - [32minfo[39m: [32mdb connected![39m
+2023-05-11 15:54:13 - [32minfo[39m: [32mServer Running on 3000[39m
+2023-05-11 15:58:26 - [31merror[39m: [31mdb did not connect![39m
+2023-05-11 15:58:51 - [32minfo[39m: [32mdb connected![39m
+2023-05-11 15:58:51 - [32minfo[39m: [32mServer Running on 3000[39m
+2023-05-11 16:12:26 - [32minfo[39m: [32mdb connected![39m
+2023-05-11 16:12:26 - [32minfo[39m: [32mServer Running on 3000[39m
+2023-05-11 16:12:34 - [35mhttp[39m: [35mPOST /user/register 404 153 - 1.580 ms[39m
+[35m[39m
+2023-05-11 16:13:14 - [32minfo[39m: [32mdb connected![39m
+2023-05-11 16:13:14 - [32minfo[39m: [32mServer Running on 3000[39m
+2023-05-11 16:13:17 - [35mhttp[39m: [35mPOST /user/register 200 246 - 34.793 ms[39m
+[35m[39m
+2023-05-16 16:20:25 - [32minfo[39m: [32mdb connected![39m
+2023-05-16 16:20:25 - [32minfo[39m: [32mServer Running on 3000[39m
+2023-05-16 16:25:08 - [32minfo[39m: [32mdb connected![39m
+2023-05-16 16:25:08 - [32minfo[39m: [32mServer Running on 3000[39m
+2023-05-16 16:25:34 - [35mhttp[39m: [35mGET / 404 139 - 2.984 ms[39m
+[35m[39m
+2023-05-16 16:26:20 - [32minfo[39m: [32mdb connected![39m
+2023-05-16 16:26:20 - [32minfo[39m: [32mServer Running on 3000[39m
+2023-05-16 16:26:58 - [32minfo[39m: [32mdb connected![39m
+2023-05-16 16:26:58 - [32minfo[39m: [32mServer Running on 3000[39m
+2023-05-16 16:27:58 - [32minfo[39m: [32mdb connected![39m
+2023-05-16 16:27:58 - [32minfo[39m: [32mServer Running on 3000[39m
+2023-05-16 16:30:59 - [32minfo[39m: [32mdb connected![39m
+2023-05-16 16:30:59 - [32minfo[39m: [32mServer Running on 3000[39m
+2023-05-16 16:31:27 - [35mhttp[39m: [35mGET / 404 139 - 2.748 ms[39m
+[35m[39m
+2023-05-16 16:32:20 - [32minfo[39m: [32mdb connected![39m
+2023-05-16 16:32:20 - [32minfo[39m: [32mServer Running on 3000[39m
+2023-05-16 16:33:16 - [32minfo[39m: [32mdb connected![39m
+2023-05-16 16:33:16 - [32minfo[39m: [32mServer Running on 3000[39m
+2023-05-16 16:34:48 - [32minfo[39m: [32mdb connected![39m
+2023-05-16 16:34:48 - [32minfo[39m: [32mServer Running on 5000[39m
+2023-05-16 16:35:13 - [35mhttp[39m: [35mGET / 404 139 - 3.512 ms[39m
+[35m[39m
+2023-05-16 16:40:56 - [32minfo[39m: [32mdb connected![39m
+2023-05-16 16:40:56 - [32minfo[39m: [32mServer Running on 5000[39m
+2023-05-16 16:40:58 - [32minfo[39m: [32mdb connected![39m
+2023-05-16 16:40:58 - [32minfo[39m: [32mServer Running on 5000[39m
+2023-05-16 16:41:00 - [32minfo[39m: [32mdb connected![39m
+2023-05-16 16:41:00 - [32minfo[39m: [32mServer Running on 5000[39m
+2023-05-16 16:41:01 - [32minfo[39m: [32mdb connected![39m
+2023-05-16 16:41:01 - [32minfo[39m: [32mServer Running on 5000[39m
+2023-05-16 16:41:06 - [32minfo[39m: [32mdb connected![39m
+2023-05-16 16:41:06 - [32minfo[39m: [32mServer Running on 5000[39m
+2023-05-16 16:41:16 - [32minfo[39m: [32mdb connected![39m
+2023-05-16 16:41:16 - [32minfo[39m: [32mServer Running on 5000[39m
+2023-05-16 16:41:17 - [32minfo[39m: [32mdb connected![39m
+2023-05-16 16:41:17 - [32minfo[39m: [32mServer Running on 5000[39m
+2023-05-16 16:41:20 - [35mhttp[39m: [35mGET / 200 17 - 3.601 ms[39m
+[35m[39m
+2023-05-16 16:41:20 - [35mhttp[39m: [35mGET /favicon.ico 404 150 - 1.489 ms[39m
+[35m[39m
+2023-05-16 16:42:20 - [32minfo[39m: [32mdb connected![39m
+2023-05-16 16:42:20 - [32minfo[39m: [32mServer Running on 5000[39m
+2023-05-16 16:42:43 - [32minfo[39m: [32mdb connected![39m
+2023-05-16 16:42:43 - [32minfo[39m: [32mServer Running on 5000[39m
+2023-05-16 16:43:09 - [32minfo[39m: [32mdb connected![39m
+2023-05-16 16:43:09 - [32minfo[39m: [32mServer Running on 5000[39m
+2023-05-16 16:43:17 - [32minfo[39m: [32mdb connected![39m
+2023-05-16 16:43:17 - [32minfo[39m: [32mServer Running on 5000[39m
+2023-05-16 16:43:26 - [32minfo[39m: [32mdb connected![39m
+2023-05-16 16:43:26 - [32minfo[39m: [32mServer Running on 5000[39m
+2023-05-16 16:43:28 - [32minfo[39m: [32mdb connected![39m
+2023-05-16 16:43:28 - [32minfo[39m: [32mServer Running on 5000[39m
+2023-05-16 16:43:31 - [32minfo[39m: [32mdb connected![39m
+2023-05-16 16:43:31 - [32minfo[39m: [32mServer Running on 5000[39m
+2023-05-16 16:43:51 - [32minfo[39m: [32mdb connected![39m
+2023-05-16 16:43:51 - [32minfo[39m: [32mServer Running on 5000[39m
+2023-05-16 16:43:56 - [32minfo[39m: [32mdb connected![39m
+2023-05-16 16:43:56 - [32minfo[39m: [32mServer Running on 5000[39m
+2023-05-16 16:44:03 - [32minfo[39m: [32mdb connected![39m
+2023-05-16 16:44:03 - [32minfo[39m: [32mServer Running on 5000[39m
+2023-05-16 16:44:08 - [32minfo[39m: [32mdb connected![39m
+2023-05-16 16:44:08 - [32minfo[39m: [32mServer Running on 5000[39m
+2023-05-16 16:44:09 - [32minfo[39m: [32mdb connected![39m
+2023-05-16 16:44:09 - [32minfo[39m: [32mServer Running on 5000[39m
+2023-05-16 16:44:20 - [32minfo[39m: [32mdb connected![39m
+2023-05-16 16:44:20 - [32minfo[39m: [32mServer Running on 5000[39m
+2023-05-16 16:45:00 - [32minfo[39m: [32mdb connected![39m
+2023-05-16 16:45:00 - [32minfo[39m: [32mServer Running on 5000[39m
+2023-05-16 16:45:41 - [35mhttp[39m: [35mGET / 304 - - 2.482 ms[39m
+[35m[39m
+2023-05-16 16:45:51 - [31merror[39m: [31mdb did not connect![39m
+2023-05-16 16:46:24 - [31merror[39m: [31mdb did not connect![39m
+2023-05-16 16:47:09 - [31merror[39m: [31mdb did not connect![39m
+2023-05-16 16:48:55 - [31merror[39m: [31mdb did not connect![39m
+2023-05-16 16:49:57 - [32minfo[39m: [32mdb connected![39m
+2023-05-16 16:49:57 - [32minfo[39m: [32mServer Running on 5000[39m
+2023-05-17 15:19:11 - [32minfo[39m: [32mdb connected![39m
+2023-05-17 15:19:11 - [32minfo[39m: [32mServer Running on 5000[39m
+2023-05-17 15:22:10 - [35mhttp[39m: [35mPOST /user/register 200 55 - 2750.185 ms[39m
+[35m[39m
+2023-05-17 15:25:18 - [35mhttp[39m: [35mPOST /user/login 401 48 - 49.306 ms[39m
+[35m[39m
+2023-05-17 15:25:40 - [35mhttp[39m: [35mPOST /user/login 200 250 - 2399.990 ms[39m
+[35m[39m
+2023-05-17 15:26:43 - [32minfo[39m: [32mdb connected![39m
+2023-05-17 15:26:43 - [32minfo[39m: [32mServer Running on 5000[39m

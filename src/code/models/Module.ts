@@ -4,8 +4,8 @@ const moduleSchema = new Schema(
   {
     title: {type: String, required: true},
     subtitle: {type: String},
-    classes: {type: Array},
-    description: {type: Text},
+    lessons: {type: Array},
+    description: {type: String},
     subject: {type: Array},
     logo: {type: String}
   },

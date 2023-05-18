@@ -1,10 +1,10 @@
 import { model, Schema } from "mongoose";
 
-const classSchema = new Schema(
+const lessonSchema = new Schema(
   {
     title: { type: String , required: true},
     url: { type: String, required: true},
-    description: { type: Text },
+    description: { type: String },
     comments: { type: Array },
   },
   {
@@ -12,4 +12,4 @@ const classSchema = new Schema(
   }
 )
 
-export const ClassModel = model("Class", classSchema);
+export const LessonModel = model("Class", lessonSchema);

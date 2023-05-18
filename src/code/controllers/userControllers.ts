@@ -5,7 +5,9 @@ import Logger from "../../config/logger";
 import bcrypt from "bcryptjs";
 import jwt from "jsonwebtoken";
 
-
+interface CustomRequest extends Request {
+    isAdmin: boolean;
+}
 
 // TODO: implementar marcar aula como assistida
 
@@ -45,7 +47,7 @@ export async function register(req: Request, res: Response) {
     }
 }
 
-export async function login(req: Request, res: Response, next: NextFunction) {
+export async function login(req: Request, res: Response) {
     try {
         const user = await UserModel.findOne({email: req.body.email});
 
@@ -57,13 +59,13 @@ export async function login(req: Request, res: Response, next: NextFunction) {
         if(validHash){
             //sucess
             if(user.isAdmin){
-                next();
+                const token = jwt.sign({username: user.name, _id: user._id, isAdmin: true}, config.get<string>("jwtSecret"), {expiresIn: '7d'});
+                return res.json({error: false, mgs: "Login de Admin efetuado com sucesso", token: token});
             }
             else{
-                const token = jwt.sign({username: user.name, _id: user._id}, config.get<string>("jwtSecret"))
+                const token = jwt.sign({username: user.name, _id: user._id, isAdmin: false}, config.get<string>("jwtSecret"), {expiresIn: '7d'});
                 return res.json({error: false, mgs: "Login efetuado com sucesso", token: token});
-            }
-            
+            }   
         }
         else{
             //fail

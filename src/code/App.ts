@@ -13,13 +13,16 @@ import morgamMiddleware from "./middleware/morganMiddleware";
 app.use(morgamMiddleware);
 
 
+app.get("/", (req, res) =>{
+    return res.send("Hello World");
+})
 
 
 import userRouter from "./routers/userRouter";
 app.use("/user", userRouter);
 
-import classRouter from "./routers/classRouter";
-app.use("/class", classRouter);
+import lessonRouter from "./routers/lessonRouter";
+app.use("/lesson", lessonRouter);
 
 import moduleRouter from "./routers/moduleRouter";
 app.use("/module", moduleRouter);

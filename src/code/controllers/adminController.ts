@@ -13,7 +13,9 @@ export async function auth(req: Request, res: Response, next: NextFunction) {
 
     try {
         if(req.headers.authorization){
-            const validation = jwt.verify(req.headers.authorization, config.get("jwtSecret")) as JwtPayload
+            const cleanToken = req.headers.authorization.replace(/^Bearer\s+/i, '');
+
+            const validation = jwt.verify(cleanToken, config.get<string>("jwtSecret")) as JwtPayload
             if(validation){
                 const admin = await UserModel.findOne({_id: validation._id})
 
@@ -25,6 +27,9 @@ export async function auth(req: Request, res: Response, next: NextFunction) {
                 }
             }
             
+        }
+        else{
+            return res.status(401).json({error: true, msg: "Acesso Negado"});
         }
         
     } catch (error) {

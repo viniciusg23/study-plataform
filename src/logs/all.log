@@ -99,3 +99,181 @@
 [35m[39m
 2023-05-17 15:26:43 - [32minfo[39m: [32mdb connected![39m
 2023-05-17 15:26:43 - [32minfo[39m: [32mServer Running on 5000[39m
+2023-05-18 12:46:12 - [32minfo[39m: [32mdb connected![39m
+2023-05-18 12:46:12 - [32minfo[39m: [32mServer Running on 5000[39m
+2023-05-18 13:01:41 - [32minfo[39m: [32mdb connected![39m
+2023-05-18 13:01:41 - [32minfo[39m: [32mServer Running on 5000[39m
+2023-05-18 13:01:50 - [32minfo[39m: [32mdb connected![39m
+2023-05-18 13:01:50 - [32minfo[39m: [32mServer Running on 5000[39m
+2023-05-18 13:04:28 - [35mhttp[39m: [35mPOST /module/create - - - - ms[39m
+[35m[39m
+2023-05-18 13:05:08 - [32minfo[39m: [32mdb connected![39m
+2023-05-18 13:05:08 - [32minfo[39m: [32mServer Running on 5000[39m
+2023-05-18 13:07:15 - [35mhttp[39m: [35mPOST /module/create - - - - ms[39m
+[35m[39m
+2023-05-18 13:08:04 - [35mhttp[39m: [35mGET / 404 139 - 6.016 ms[39m
+[35m[39m
+2023-05-18 13:08:26 - [32minfo[39m: [32mdb connected![39m
+2023-05-18 13:08:26 - [32minfo[39m: [32mServer Running on 5000[39m
+2023-05-18 13:08:31 - [32minfo[39m: [32mdb connected![39m
+2023-05-18 13:08:31 - [32minfo[39m: [32mServer Running on 5000[39m
+2023-05-18 13:08:38 - [32minfo[39m: [32mdb connected![39m
+2023-05-18 13:08:38 - [32minfo[39m: [32mServer Running on 5000[39m
+2023-05-18 13:09:00 - [32minfo[39m: [32mdb connected![39m
+2023-05-18 13:09:00 - [32minfo[39m: [32mServer Running on 5000[39m
+2023-05-18 13:09:08 - [32minfo[39m: [32mdb connected![39m
+2023-05-18 13:09:08 - [32minfo[39m: [32mServer Running on 5000[39m
+2023-05-18 13:09:11 - [32minfo[39m: [32mdb connected![39m
+2023-05-18 13:09:11 - [32minfo[39m: [32mServer Running on 5000[39m
+2023-05-18 13:09:18 - [32minfo[39m: [32mdb connected![39m
+2023-05-18 13:09:18 - [32minfo[39m: [32mServer Running on 5000[39m
+2023-05-18 13:11:13 - [32minfo[39m: [32mdb connected![39m
+2023-05-18 13:11:13 - [32minfo[39m: [32mServer Running on 5000[39m
+2023-05-18 13:11:19 - [32minfo[39m: [32mdb connected![39m
+2023-05-18 13:11:19 - [32minfo[39m: [32mServer Running on 5000[39m
+2023-05-18 13:11:47 - [32minfo[39m: [32mdb connected![39m
+2023-05-18 13:11:47 - [32minfo[39m: [32mServer Running on 5000[39m
+2023-05-18 13:11:52 - [35mhttp[39m: [35mPOST /module/create 401 36 - 6.025 ms[39m
+[35m[39m
+2023-05-18 13:13:02 - [35mhttp[39m: [35mPOST /user/login 401 36 - 10564.913 ms[39m
+[35m[39m
+2023-05-18 13:21:13 - [32minfo[39m: [32mdb connected![39m
+2023-05-18 13:21:13 - [32minfo[39m: [32mServer Running on 5000[39m
+2023-05-18 13:24:09 - [32minfo[39m: [32mdb connected![39m
+2023-05-18 13:24:09 - [32minfo[39m: [32mServer Running on 5000[39m
+2023-05-18 13:24:33 - [32minfo[39m: [32mdb connected![39m
+2023-05-18 13:24:33 - [32minfo[39m: [32mServer Running on 5000[39m
+2023-05-18 13:24:38 - [32minfo[39m: [32mdb connected![39m
+2023-05-18 13:24:38 - [32minfo[39m: [32mServer Running on 5000[39m
+2023-05-18 13:24:41 - [32minfo[39m: [32mdb connected![39m
+2023-05-18 13:24:41 - [32minfo[39m: [32mServer Running on 5000[39m
+2023-05-18 13:24:46 - [32minfo[39m: [32mdb connected![39m
+2023-05-18 13:24:46 - [32minfo[39m: [32mServer Running on 5000[39m
+2023-05-18 13:24:49 - [32minfo[39m: [32mdb connected![39m
+2023-05-18 13:24:49 - [32minfo[39m: [32mServer Running on 5000[39m
+2023-05-18 13:25:14 - [32minfo[39m: [32mdb connected![39m
+2023-05-18 13:25:14 - [32minfo[39m: [32mServer Running on 5000[39m
+2023-05-18 13:25:54 - [32minfo[39m: [32mdb connected![39m
+2023-05-18 13:25:54 - [32minfo[39m: [32mServer Running on 5000[39m
+2023-05-18 13:28:10 - [32minfo[39m: [32mdb connected![39m
+2023-05-18 13:28:10 - [32minfo[39m: [32mServer Running on 5000[39m
+2023-05-18 13:28:14 - [32minfo[39m: [32mdb connected![39m
+2023-05-18 13:28:14 - [32minfo[39m: [32mServer Running on 5000[39m
+2023-05-18 13:28:18 - [32minfo[39m: [32mdb connected![39m
+2023-05-18 13:28:18 - [32minfo[39m: [32mServer Running on 5000[39m
+2023-05-18 13:28:27 - [32minfo[39m: [32mdb connected![39m
+2023-05-18 13:28:27 - [32minfo[39m: [32mServer Running on 5000[39m
+2023-05-18 13:28:46 - [32minfo[39m: [32mdb connected![39m
+2023-05-18 13:28:46 - [32minfo[39m: [32mServer Running on 5000[39m
+2023-05-18 13:28:51 - [32minfo[39m: [32mdb connected![39m
+2023-05-18 13:28:51 - [32minfo[39m: [32mServer Running on 5000[39m
+2023-05-18 13:29:09 - [32minfo[39m: [32mdb connected![39m
+2023-05-18 13:29:09 - [32minfo[39m: [32mServer Running on 5000[39m
+2023-05-18 13:29:20 - [32minfo[39m: [32mdb connected![39m
+2023-05-18 13:29:20 - [32minfo[39m: [32mServer Running on 5000[39m
+2023-05-18 13:30:18 - [32minfo[39m: [32mdb connected![39m
+2023-05-18 13:30:18 - [32minfo[39m: [32mServer Running on 5000[39m
+2023-05-18 13:30:38 - [32minfo[39m: [32mdb connected![39m
+2023-05-18 13:30:38 - [32minfo[39m: [32mServer Running on 5000[39m
+2023-05-18 13:30:46 - [32minfo[39m: [32mdb connected![39m
+2023-05-18 13:30:46 - [32minfo[39m: [32mServer Running on 5000[39m
+2023-05-18 13:30:49 - [32minfo[39m: [32mdb connected![39m
+2023-05-18 13:30:49 - [32minfo[39m: [32mServer Running on 5000[39m
+2023-05-18 13:30:53 - [32minfo[39m: [32mdb connected![39m
+2023-05-18 13:30:53 - [32minfo[39m: [32mServer Running on 5000[39m
+2023-05-18 13:30:56 - [32minfo[39m: [32mdb connected![39m
+2023-05-18 13:30:56 - [32minfo[39m: [32mServer Running on 5000[39m
+2023-05-18 13:31:10 - [32minfo[39m: [32mdb connected![39m
+2023-05-18 13:31:10 - [32minfo[39m: [32mServer Running on 5000[39m
+2023-05-18 13:31:17 - [32minfo[39m: [32mdb connected![39m
+2023-05-18 13:31:17 - [32minfo[39m: [32mServer Running on 5000[39m
+2023-05-18 13:31:23 - [32minfo[39m: [32mdb connected![39m
+2023-05-18 13:31:23 - [32minfo[39m: [32mServer Running on 5000[39m
+2023-05-18 13:31:45 - [32minfo[39m: [32mdb connected![39m
+2023-05-18 13:31:45 - [32minfo[39m: [32mServer Running on 5000[39m
+2023-05-18 13:32:35 - [32minfo[39m: [32mdb connected![39m
+2023-05-18 13:32:35 - [32minfo[39m: [32mServer Running on 5000[39m
+2023-05-18 13:32:39 - [32minfo[39m: [32mdb connected![39m
+2023-05-18 13:32:39 - [32minfo[39m: [32mServer Running on 5000[39m
+2023-05-18 13:32:42 - [32minfo[39m: [32mdb connected![39m
+2023-05-18 13:32:42 - [32minfo[39m: [32mServer Running on 5000[39m
+2023-05-18 13:33:07 - [32minfo[39m: [32mdb connected![39m
+2023-05-18 13:33:07 - [32minfo[39m: [32mServer Running on 5000[39m
+2023-05-18 13:33:18 - [32minfo[39m: [32mdb connected![39m
+2023-05-18 13:33:18 - [32minfo[39m: [32mServer Running on 5000[39m
+2023-05-18 13:33:24 - [32minfo[39m: [32mdb connected![39m
+2023-05-18 13:33:24 - [32minfo[39m: [32mServer Running on 5000[39m
+2023-05-18 13:33:35 - [32minfo[39m: [32mdb connected![39m
+2023-05-18 13:33:35 - [32minfo[39m: [32mServer Running on 5000[39m
+2023-05-18 13:33:54 - [32minfo[39m: [32mdb connected![39m
+2023-05-18 13:33:54 - [32minfo[39m: [32mServer Running on 5000[39m
+2023-05-18 13:35:36 - [32minfo[39m: [32mdb connected![39m
+2023-05-18 13:35:36 - [32minfo[39m: [32mServer Running on 5000[39m
+2023-05-18 13:35:41 - [32minfo[39m: [32mdb connected![39m
+2023-05-18 13:35:41 - [32minfo[39m: [32mServer Running on 5000[39m
+2023-05-18 13:36:22 - [32minfo[39m: [32mdb connected![39m
+2023-05-18 13:36:22 - [32minfo[39m: [32mServer Running on 5000[39m
+2023-05-18 13:36:30 - [32minfo[39m: [32mdb connected![39m
+2023-05-18 13:36:30 - [32minfo[39m: [32mServer Running on 5000[39m
+2023-05-18 13:37:05 - [32minfo[39m: [32mdb connected![39m
+2023-05-18 13:37:05 - [32minfo[39m: [32mServer Running on 5000[39m
+2023-05-18 13:37:10 - [32minfo[39m: [32mdb connected![39m
+2023-05-18 13:37:10 - [32minfo[39m: [32mServer Running on 5000[39m
+2023-05-18 13:37:13 - [32minfo[39m: [32mdb connected![39m
+2023-05-18 13:37:14 - [32minfo[39m: [32mServer Running on 5000[39m
+2023-05-18 13:37:59 - [32minfo[39m: [32mdb connected![39m
+2023-05-18 13:37:59 - [32minfo[39m: [32mServer Running on 5000[39m
+2023-05-18 13:38:26 - [35mhttp[39m: [35mPOST /user/login 200 303 - 7616.157 ms[39m
+[35m[39m
+2023-05-18 13:40:56 - [31merror[39m: [31mError in registerUser: JsonWebTokenError: invalid token[39m
+2023-05-18 13:40:56 - [35mhttp[39m: [35mPOST /module/create 500 64 - 5.613 ms[39m
+[35m[39m
+2023-05-18 13:42:11 - [31merror[39m: [31mError in registerUser: JsonWebTokenError: invalid token[39m
+2023-05-18 13:42:11 - [35mhttp[39m: [35mPOST /module/create 500 64 - 4.740 ms[39m
+[35m[39m
+2023-05-18 13:50:52 - [32minfo[39m: [32mdb connected![39m
+2023-05-18 13:50:52 - [32minfo[39m: [32mServer Running on 5000[39m
+2023-05-18 13:51:01 - [32minfo[39m: [32mdb connected![39m
+2023-05-18 13:51:01 - [32minfo[39m: [32mServer Running on 5000[39m
+2023-05-18 13:51:06 - [32minfo[39m: [32mdb connected![39m
+2023-05-18 13:51:07 - [32minfo[39m: [32mServer Running on 5000[39m
+2023-05-18 13:51:12 - [32minfo[39m: [32mdb connected![39m
+2023-05-18 13:51:12 - [32minfo[39m: [32mServer Running on 5000[39m
+2023-05-18 13:51:14 - [32minfo[39m: [32mdb connected![39m
+2023-05-18 13:51:14 - [32minfo[39m: [32mServer Running on 5000[39m
+2023-05-18 13:51:32 - [32minfo[39m: [32mdb connected![39m
+2023-05-18 13:51:32 - [32minfo[39m: [32mServer Running on 5000[39m
+2023-05-18 13:51:43 - [32minfo[39m: [32mdb connected![39m
+2023-05-18 13:51:43 - [32minfo[39m: [32mServer Running on 5000[39m
+2023-05-18 13:52:36 - [32minfo[39m: [32mdb connected![39m
+2023-05-18 13:52:36 - [32minfo[39m: [32mServer Running on 5000[39m
+2023-05-18 13:52:59 - [35mhttp[39m: [35mPOST /module/create 200 75 - 144.193 ms[39m
+[35m[39m
+2023-05-18 13:55:11 - [32minfo[39m: [32mdb connected![39m
+2023-05-18 13:55:11 - [32minfo[39m: [32mServer Running on 5000[39m
+2023-05-18 13:56:36 - [32minfo[39m: [32mdb connected![39m
+2023-05-18 13:56:36 - [32minfo[39m: [32mServer Running on 5000[39m
+2023-05-18 14:00:17 - [32minfo[39m: [32mdb connected![39m
+2023-05-18 14:00:17 - [32minfo[39m: [32mServer Running on 5000[39m
+2023-05-18 14:00:39 - [32minfo[39m: [32mdb connected![39m
+2023-05-18 14:00:39 - [32minfo[39m: [32mServer Running on 5000[39m
+2023-05-18 14:00:48 - [32minfo[39m: [32mdb connected![39m
+2023-05-18 14:00:48 - [32minfo[39m: [32mServer Running on 5000[39m
+2023-05-18 14:07:06 - [32minfo[39m: [32mdb connected![39m
+2023-05-18 14:07:06 - [32minfo[39m: [32mServer Running on 5000[39m
+2023-05-18 14:07:34 - [32minfo[39m: [32mdb connected![39m
+2023-05-18 14:07:34 - [32minfo[39m: [32mServer Running on 5000[39m
+2023-05-18 14:07:37 - [32minfo[39m: [32mdb connected![39m
+2023-05-18 14:07:37 - [32minfo[39m: [32mServer Running on 5000[39m
+2023-05-18 14:59:07 - [32minfo[39m: [32mdb connected![39m
+2023-05-18 14:59:07 - [32minfo[39m: [32mServer Running on 5000[39m
+2023-05-18 14:59:26 - [35mhttp[39m: [35mPOST /lesson/create 200 72 - 57.874 ms[39m
+[35m[39m
+2023-05-18 14:59:59 - [35mhttp[39m: [35mPOST /module/addLesson 404 156 - 1.255 ms[39m
+[35m[39m
+2023-05-18 15:00:23 - [35mhttp[39m: [35mPOST /module/add-lesson 200 62 - 60.445 ms[39m
+[35m[39m
+2023-05-18 15:01:55 - [35mhttp[39m: [35mPOST /module/create 200 75 - 49.840 ms[39m
+[35m[39m
+2023-05-18 15:02:05 - [35mhttp[39m: [35mPOST /module/add-lesson 200 62 - 54.607 ms[39m
+[35m[39m

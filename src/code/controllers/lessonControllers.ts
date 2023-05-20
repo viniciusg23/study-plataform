@@ -36,6 +36,16 @@ export async function create(req: Request, res: Response){
             }
         }
 
+        const validTitle = await LessonModel.findOne({title: data.title});
+        if(validTitle){
+            return res.status(400).json({error: true, msg: "Já xiste uma aula com esse título, tente outro"});
+        }
+
+        const validUrl = await LessonModel.findOne({url: data.url});
+        if(validUrl){
+            return res.status(400).json({error: true, msg: "Já xiste uma aula com essa url, tente outra"});
+        }
+
         const lesson = await LessonModel.create(data);
         return res.json({error: false, msg: `Aula ${lesson._id} criada com sucesso`});
 
@@ -46,19 +56,36 @@ export async function create(req: Request, res: Response){
 }
 
 
-
-export async function existLesson(id: string){
+export async function getLesson(req: Request, res: Response) {
     try {
-        const lesson = await LessonModel.findOne({_id: id});
-
+        const lesson = await LessonModel.findOne({_id: req.params.id});
         if(lesson){
-            return true;
+            return res.json({error: false, msg:"Aula encontrada", lesson: lesson});
         }
         else{
-            return false;
+            return res.status(204).json({error: true, msg: "Nenhuma aula foi encontrado com esse Id, tente usar outro"});
         }
 
     } catch (error) {
         Logger.error(error);
+        return res.status(500).send("Estamos com alguns problemas agora, tente novamente mais tarde");
+    }
+}
+
+
+export async function lessonById(id: string){
+    try {
+        const lesson = await LessonModel.findOne({_id: id});
+
+        if(lesson){
+            return lesson;
+        }
+        else{
+            return null;
+        }
+
+    } catch (error) {
+        Logger.error(error);
+        return null;
     }
 }

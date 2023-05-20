@@ -12,4 +12,4 @@ const lessonSchema = new Schema(
   }
 )
 
-export const LessonModel = model("Class", lessonSchema);
+export const LessonModel = model("Lesson", lessonSchema);

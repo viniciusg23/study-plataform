@@ -733,3 +733,7 @@
 [31m  [Symbol(kTrailers)]: null,[39m
 [31m  [Symbol(kTrailersCount)]: 0[39m
 [31m}" (type IncomingMessage) at path "_id" for model "Lesson"[39m
+2023-05-24 09:15:08 - [31merror[39m: [31mdb did not connect![39m
+2023-05-25 10:55:49 - [31merror[39m: [31mdb did not connect![39m
+2023-05-25 15:47:58 - [31merror[39m: [31mOperation `modules.find()` buffering timed out after 10000ms[39m
+2023-05-25 15:48:02 - [31merror[39m: [31mdb did not connect![39m

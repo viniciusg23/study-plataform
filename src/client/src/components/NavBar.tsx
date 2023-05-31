@@ -13,6 +13,8 @@ import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
 import CodeIcon from '@mui/icons-material/Code';
+import InfoModal from './InfoModal';
+
 
 const pages = ['Início', 'Sobre', 'Contato'];
 
@@ -107,7 +109,7 @@ function NavBar() {
           >
             CODE
           </Typography>
-          <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
+          <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex', alignItems: "center" } }}>
             {pages.map((page) => (
               <Button
                 key={page}
@@ -117,6 +119,7 @@ function NavBar() {
                 {page}
               </Button>
             ))}
+            <InfoModal />
           </Box>
 
         </Toolbar>
@@ -124,4 +127,7 @@ function NavBar() {
     </AppBar>
   );
 }
+
+
+
 export default NavBar;

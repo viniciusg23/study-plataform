@@ -1,5 +1,6 @@
-import { Box, Grid, Paper, Typography } from "@mui/material";
+import { Box, Button, Drawer, Grid, Paper, Typography, useMediaQuery } from "@mui/material";
 import "./style.css";
+import React from "react";
 
 interface ModuleProps{
     module:{
@@ -12,6 +13,8 @@ interface ModuleProps{
 
 function Module(props: ModuleProps){
     const {module} = props;
+    
+
     return(
         <Paper elevation={5} className="module" style={{
             transitionProperty: "border, transform",
@@ -47,9 +50,8 @@ function Module(props: ModuleProps){
                 </Grid>
             </Grid>
         </Paper>
-        
+    );    
 
-    );
 }
 
 export default Module;

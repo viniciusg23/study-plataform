@@ -3,6 +3,47 @@
   font-family: 'Nunito Sans', sans-serif;
 }
 
+.link{
+  text-decoration: none;
+}
+
+.textLogo * {
+  display: inline;
+  font-weight: bold; 
+  color: white 
+}
+
+.textLogo > p:nth-child(3) {
+  color: #03FA6E;
+}
+
+.textLogo span {
+  opacity: .3;
+}
+
+.lesson {
+  width: 100%;
+  position: relative;
+  padding-bottom: 56.25%; 
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+}
+
+.lesson iframe {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  
+  border: none;
+}
+
+
+
+
 
 /* Estilo da barra de rolagem */
 ::-webkit-scrollbar {

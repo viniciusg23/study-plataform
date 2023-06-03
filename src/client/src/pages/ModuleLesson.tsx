@@ -1,4 +1,4 @@
-import * as React from 'react';
+import "../App.css";
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import CssBaseline from '@mui/material/CssBaseline';
@@ -15,41 +15,64 @@ import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import ModuleIntro from '../components/ModuleIntro';
-import { useEffect, useState } from 'react';
+import { useEffect, useState, MouseEvent } from 'react';
+import { useParams } from "react-router-dom"
+import Skeleton from '@mui/material/Skeleton/Skeleton';
+import Lesson from "../components/Lesson";
+import { Link } from "react-router-dom";
 
 const darkTheme = createTheme({
   palette: {
     mode: 'dark',
   },
 });
-
 const drawerWidth = 300;
-
 interface Props {
   window?: () => Window;
 }
 
+interface Event{
+  target: {
+    id: string
+  }
+}
+
+interface ModuleInfo{
+    _id: string,
+    title: string,
+    subtitle: string,
+    lessons: [
+      {
+        _id: string,
+        name: string
+      }
+    ],
+    description: string,
+    subject: string[],
+    logo: string,
+    createdAt: string,
+    updatedAt: string,
+    __v: 0
+}
+
 function ModuleLesson(props: Props) {
+  const [data, setData] = useState<ModuleInfo>();
+  const [content, setContent] = useState(<></>);
 
-  const { window } = props;
-  const [mobileOpen, setMobileOpen] = React.useState(false);
-
-  const [data, setData] = useState([]);
+  const {id} = useParams();
 
   useEffect(() => {
-    const fetchData = async () => {
+    async function fetchData() {
       try {
-        const response = await fetch("/module/all");
+        const response = await fetch(`/module/${id}`);
         const jsonData = await response.json();
 
-        for(const item of jsonData.modules){
-          delete item._id;
-          delete item.createdAt;
-          delete item.updatedAt;
-          delete item.__v;
+        if(jsonData.error){
+          alert("Nenhum Módulo encontrado");
         }
-
-        setData(jsonData.modules);
+        else{
+          setData(jsonData.module);
+        }
       } catch (error) {
         console.error('Erro ao buscar os dados:', error);
       }
@@ -58,33 +81,58 @@ function ModuleLesson(props: Props) {
     fetchData();
   }, []);
 
+  function handleLesson(event: MouseEvent<HTMLDivElement, globalThis.MouseEvent>) {
+    setContent(<Lesson lessonId={event.currentTarget.id} />)
+  };
 
-  const lessons = ["Aula 1 - Intro", "Aula 2 - Variavel", "Aula 3 - Manipulação de Dados", "Aula 4 - Funções"];
+  const { window } = props;
+  const [mobileOpen, setMobileOpen] = useState(false);
 
   const handleDrawerToggle = () => {
     setMobileOpen(!mobileOpen);
   };
+
+  const container = window !== undefined ? () => window().document.body : undefined;
 
   const drawer = (
     <div>
       <Toolbar />
       <Divider />
       <List>
-        {lessons.map((text, index) => (
-          <ListItem key={text} disablePadding style={{overflow: "hidden", whiteSpace: "nowrap", textOverflow: "ellipsis"}}>
-            <ListItemButton>
-              <ListItemIcon>
-                <AddCircleIcon />
-              </ListItemIcon>
-              <ListItemText  primary={text} />
-            </ListItemButton>
-          </ListItem>
-        ))}
+        {!data ? (
+          <Box sx={{width: "100%", paddingX: 3}}>
+            <Skeleton variant="rounded" width={"100%"} height={60} sx={{marginBottom: 2}} />
+            <Skeleton variant="rounded" width={"100%"} height={60} sx={{marginBottom: 2}} />
+            <Skeleton variant="rounded" width={"100%"} height={60} sx={{marginBottom: 2}} />
+          </Box>
+          
+        ) : (
+          data.lessons.map((lesson, index) => (
+            <div id={lesson._id} onClick={(event) => handleLesson(event)}>
+              <ListItem key={lesson.name} disablePadding>
+                <ListItemButton >
+                  <ListItemIcon>
+                    <AddCircleIcon />
+                  </ListItemIcon>
+                  <ListItemText primary={lesson.name} />
+                </ListItemButton>
+              </ListItem>
+            </div>
+          ))
+        )}
+
       </List>
     </div>
   );
 
-  const container = window !== undefined ? () => window().document.body : undefined;
+  useEffect(() =>{
+    if(!data){
+      setContent(<Skeleton variant="rounded" width={"100%"} height={"100%"} />)
+    }
+    else{
+      setContent(<ModuleIntro title={data.title} subtitle={data.subtitle} description={data.description} subjects={data.subject} logo={data.logo} />);
+    }
+  }, [data]);
 
   return (
     <ThemeProvider theme={darkTheme}>
@@ -107,9 +155,15 @@ function ModuleLesson(props: Props) {
           >
             <AddCircleIcon />
           </IconButton>
-          <Typography variant="h6" noWrap component="div">
-            {"<Crafting Code/>"}
-          </Typography>
+          <Link to="/" className="link">
+            <Typography className="textLogo" variant="h6" noWrap component="div">
+              <span>&lt;</span>
+              <p>Crafting</p>
+              <p>Code</p>
+              <span>/&gt;</span>
+            </Typography>
+          </Link>
+          
         </Toolbar>
       </AppBar>
       <Box
@@ -117,14 +171,13 @@ function ModuleLesson(props: Props) {
         sx={{ width: { md: drawerWidth }, flexShrink: { md: 0 } }}
         aria-label="mailbox folders"
       >
-        {/* The implementation can be swapped with js to avoid SEO duplication of links. */}
         <Drawer
           container={container}
           variant="temporary"
           open={mobileOpen}
           onClose={handleDrawerToggle}
           ModalProps={{
-            keepMounted: true, // Better open performance on mobile.
+            keepMounted: true,
           }}
           sx={{
             display: { xs: 'block', md: 'none' },
@@ -149,21 +202,8 @@ function ModuleLesson(props: Props) {
         sx={{ flexGrow: 1, p: 3, px: 5, width: { md: `calc(100% - ${drawerWidth}px)` } }}
       >
         <Toolbar />
-        <ModuleIntro title={'Linguagem C'} subtitle={'Introdução a programação utilizando a linguagem C'} description={
-          `A linguagem de programação C é uma das linguagens de programação mais populares e amplamente utilizadas na indústria de desenvolvimento de software. Criada por Dennis Ritchie na década de 1970, a linguagem C foi desenvolvida como uma evolução da linguagem B, buscando maior portabilidade e eficiência.
-
-          A C é conhecida por sua simplicidade e poder de expressão, permitindo aos programadores escreverem códigos de forma concisa e eficiente. Ela foi projetada para fornecer um nível mais baixo de abstração, o que significa que os programadores têm controle direto sobre a memória e os recursos do sistema, tornando-a uma linguagem de programação de "alto nível" próximo da linguagem de máquina.
-
-          Uma das principais características da linguagem C é sua portabilidade. Os programas escritos em C podem ser compilados e executados em diferentes sistemas operacionais e arquiteturas de computador, desde que um compilador C esteja disponível para o ambiente de destino.
-
-          A C é uma linguagem procedural, o que significa que os programas são organizados em funções que realizam tarefas específicas. Ela oferece suporte a tipos de dados básicos, como inteiros, caracteres e ponto flutuante, além de estruturas de controle, como loops e condicionais.
-
-          Além disso, a linguagem C possui recursos poderosos, como ponteiros, que permitem o gerenciamento manual de memória e a manipulação direta de endereços de memória. Isso fornece flexibilidade e eficiência, mas também exige maior cuidado e atenção dos programadores para evitar erros.
-
-          A C também possui uma ampla biblioteca padrão, que fornece funções para realizar tarefas comuns, como entrada e saída de dados, manipulação de strings, alocação dinâmica de memória, entre outras.
-
-          Devido à sua eficiência e flexibilidade, a linguagem C é amplamente usada no desenvolvimento de sistemas operacionais, compiladores, controladores de dispositivo, jogos e aplicativos de alto desempenho. Também é comumente ensinada em cursos introdutórios de ciência da computação devido à sua importância histórica e ao seu papel fundamental no desenvolvimento de outras linguagens de programação.`
-        } subjects={["Programação", "Linguagem C"]} logo={'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg'} />
+        {content}
+        
       </Box>
     </Box>
     </ThemeProvider>

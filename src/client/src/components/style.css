@@ -4,6 +4,20 @@
 }
 
 .module:hover{
-    border: 1px solid #CC7B8A;
+    border: 1px solid rgba(0, 158, 72, 1);
     transform: translateY(-5px);
+}
+
+.bannerImg {
+    width: 18rem;
+}
+
+.bannerContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='100%' height='auto' preserveAspectRatio='none' viewBox='0 0 2160 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1012%26quot%3b)' fill='none'%3e%3crect width='2160' height='560' x='0' y='0' fill='url(%26quot%3b%23SvgjsLinearGradient1013%26quot%3b)'%3e%3c/rect%3e%3cpath d='M2160 0L1376.42 0L2160 74.52z' fill='rgba(255%2c 255%2c 255%2c .1)'%3e%3c/path%3e%3cpath d='M1376.42 0L2160 74.52L2160 138.62L718.5600000000001 0z' fill='rgba(255%2c 255%2c 255%2c .075)'%3e%3c/path%3e%3cpath d='M718.56 0L2160 138.62L2160 183.53L328.53999999999996 0z' fill='rgba(255%2c 255%2c 255%2c .05)'%3e%3c/path%3e%3cpath d='M328.53999999999996 0L2160 183.53L2160 224.91L108.55999999999997 0z' fill='rgba(255%2c 255%2c 255%2c .025)'%3e%3c/path%3e%3cpath d='M0 560L405.54 560L0 455.79z' fill='rgba(0%2c 0%2c 0%2c .1)'%3e%3c/path%3e%3cpath d='M0 455.79L405.54 560L653.5600000000001 560L0 428.08000000000004z' fill='rgba(0%2c 0%2c 0%2c .075)'%3e%3c/path%3e%3cpath d='M0 428.08000000000004L653.5600000000001 560L1519 560L0 337.01000000000005z' fill='rgba(0%2c 0%2c 0%2c .05)'%3e%3c/path%3e%3cpath d='M0 337.01L1519 560L1871.57 560L0 136.26999999999998z' fill='rgba(0%2c 0%2c 0%2c .025)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1012'%3e%3crect width='2160' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='18.52%25' y1='-71.43%25' x2='81.48%25' y2='171.43%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1013'%3e%3cstop stop-color='rgba(18%2c 18%2c 18%2c 1)' offset='0.34'%3e%3c/stop%3e%3cstop stop-color='rgba(0%2c 158%2c 72%2c 1)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
+    background-size: cover;
 }

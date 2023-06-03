@@ -737,3 +737,21 @@
 2023-05-25 10:55:49 - [31merror[39m: [31mdb did not connect![39m
 2023-05-25 15:47:58 - [31merror[39m: [31mOperation `modules.find()` buffering timed out after 10000ms[39m
 2023-05-25 15:48:02 - [31merror[39m: [31mdb did not connect![39m
+2023-06-02 15:21:08 - [31merror[39m: [31mCast to ObjectId failed for value "[object Object]" (type string) at path "_id" for model "Module"[39m
+2023-06-02 15:21:23 - [31merror[39m: [31mCast to ObjectId failed for value "[object Object]" (type string) at path "_id" for model "Module"[39m
+2023-06-02 15:21:34 - [31merror[39m: [31mCast to ObjectId failed for value "[object Object]" (type string) at path "_id" for model "Module"[39m
+2023-06-02 15:21:40 - [31merror[39m: [31mCast to ObjectId failed for value "[object Object]" (type string) at path "_id" for model "Module"[39m
+2023-06-02 15:21:45 - [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Module"[39m
+2023-06-02 15:21:48 - [31merror[39m: [31mCast to ObjectId failed for value "[object Object]" (type string) at path "_id" for model "Module"[39m
+2023-06-02 15:21:51 - [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Module"[39m
+2023-06-02 15:21:54 - [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Module"[39m
+2023-06-02 15:22:53 - [31merror[39m: [31mCast to ObjectId failed for value "[object Object]" (type string) at path "_id" for model "Module"[39m
+2023-06-02 15:23:01 - [31merror[39m: [31mCast to ObjectId failed for value "[object Object]" (type string) at path "_id" for model "Module"[39m
+2023-06-02 15:23:04 - [31merror[39m: [31mCast to ObjectId failed for value "[object Object]" (type string) at path "_id" for model "Module"[39m
+2023-06-02 15:23:14 - [31merror[39m: [31mCast to ObjectId failed for value "[object Object]" (type string) at path "_id" for model "Module"[39m
+2023-06-02 15:23:17 - [31merror[39m: [31mCast to ObjectId failed for value "[object Object]" (type string) at path "_id" for model "Module"[39m
+2023-06-02 15:23:35 - [31merror[39m: [31mCast to ObjectId failed for value "[object Object]" (type string) at path "_id" for model "Module"[39m
+2023-06-02 15:23:38 - [31merror[39m: [31mCast to ObjectId failed for value "[object Object]" (type string) at path "_id" for model "Module"[39m
+2023-06-02 15:23:46 - [31merror[39m: [31mCast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Module"[39m
+2023-06-02 15:37:24 - [31merror[39m: [31mCast to ObjectId failed for value "module" (type string) at path "_id" for model "Module"[39m
+2023-06-03 16:31:31 - [31merror[39m: [31mError in registerUser: TokenExpiredError: jwt expired[39m

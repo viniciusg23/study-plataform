@@ -2,6 +2,7 @@ require("dotenv").config();
 
 import config from "config";
 import db from "../config/db";
+import path from "path";
 
 import express from "express";
 const app = express();
@@ -13,9 +14,10 @@ import morgamMiddleware from "./middleware/morganMiddleware";
 app.use(morgamMiddleware);
 
 
+app.use(express.static(path.join(__dirname, 'build')));
 app.get("/", (req, res) =>{
-    return res.send("Hello World");
-})
+    res.sendFile(path.join(__dirname, 'build', 'index.html'));
+});
 
 
 import userRouter from "./routers/userRouter";

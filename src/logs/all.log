@@ -3607,3 +3607,103 @@
 [35m[39m
 2023-06-03 18:09:35 - [35mhttp[39m: [35mGET /module/all 304 - - 18.627 ms[39m
 [35m[39m
+2023-06-05 16:01:09 - [32minfo[39m: [32mdb connected![39m
+2023-06-05 16:01:09 - [32minfo[39m: [32mServer Running on 5000[39m
+2023-06-05 16:01:21 - [35mhttp[39m: [35mGET / 404 265 - 5.041 ms[39m
+[35m[39m
+2023-06-05 16:02:44 - [32minfo[39m: [32mdb connected![39m
+2023-06-05 16:02:44 - [32minfo[39m: [32mServer Running on 5000[39m
+2023-06-05 16:02:48 - [35mhttp[39m: [35mGET / 404 265 - 4.157 ms[39m
+[35m[39m
+2023-06-05 16:02:59 - [35mhttp[39m: [35mGET / 404 265 - 1.180 ms[39m
+[35m[39m
+2023-06-05 16:03:01 - [35mhttp[39m: [35mGET / 404 265 - 1.327 ms[39m
+[35m[39m
+2023-06-05 16:07:43 - [32minfo[39m: [32mdb connected![39m
+2023-06-05 16:07:43 - [32minfo[39m: [32mServer Running on 5000[39m
+2023-06-05 16:08:18 - [32minfo[39m: [32mdb connected![39m
+2023-06-05 16:08:18 - [32minfo[39m: [32mServer Running on 5000[39m
+2023-06-05 16:08:26 - [35mhttp[39m: [35mGET / 200 646 - 4.551 ms[39m
+[35m[39m
+2023-06-05 16:08:26 - [35mhttp[39m: [35mGET /static/js/main.c88493f1.js 404 165 - 2.839 ms[39m
+[35m[39m
+2023-06-05 16:08:26 - [35mhttp[39m: [35mGET /static/css/main.d9e35400.css 404 167 - 3.242 ms[39m
+[35m[39m
+2023-06-05 16:08:26 - [35mhttp[39m: [35mGET /manifest.json 404 152 - 0.936 ms[39m
+[35m[39m
+2023-06-05 16:08:26 - [35mhttp[39m: [35mGET /logo.png 404 147 - 1.678 ms[39m
+[35m[39m
+2023-06-05 16:08:32 - [35mhttp[39m: [35mGET / 304 - - 1.158 ms[39m
+[35m[39m
+2023-06-05 16:08:32 - [35mhttp[39m: [35mGET /static/js/main.c88493f1.js 404 165 - 1.419 ms[39m
+[35m[39m
+2023-06-05 16:08:32 - [35mhttp[39m: [35mGET /static/css/main.d9e35400.css 404 167 - 2.003 ms[39m
+[35m[39m
+2023-06-05 16:08:32 - [35mhttp[39m: [35mGET /manifest.json 404 152 - 0.862 ms[39m
+[35m[39m
+2023-06-05 16:08:42 - [35mhttp[39m: [35mGET / 304 - - 0.989 ms[39m
+[35m[39m
+2023-06-05 16:08:42 - [35mhttp[39m: [35mGET /static/js/main.c88493f1.js 404 165 - 0.877 ms[39m
+[35m[39m
+2023-06-05 16:08:42 - [35mhttp[39m: [35mGET /static/css/main.d9e35400.css 404 167 - 1.876 ms[39m
+[35m[39m
+2023-06-05 16:08:42 - [35mhttp[39m: [35mGET /manifest.json 404 152 - 0.793 ms[39m
+[35m[39m
+2023-06-05 16:08:58 - [35mhttp[39m: [35mGET /static/css/main.d9e35400.css 404 167 - 1.793 ms[39m
+[35m[39m
+2023-06-05 16:08:58 - [35mhttp[39m: [35mGET /manifest.json 404 152 - 2.480 ms[39m
+[35m[39m
+2023-06-05 16:10:36 - [35mhttp[39m: [35mGET / 304 - - 0.667 ms[39m
+[35m[39m
+2023-06-05 16:10:36 - [35mhttp[39m: [35mGET /static/js/main.c88493f1.js 404 165 - 0.823 ms[39m
+[35m[39m
+2023-06-05 16:10:36 - [35mhttp[39m: [35mGET /static/css/main.d9e35400.css 404 167 - 1.261 ms[39m
+[35m[39m
+2023-06-05 16:10:36 - [35mhttp[39m: [35mGET /manifest.json 404 152 - 0.452 ms[39m
+[35m[39m
+2023-06-05 16:10:40 - [35mhttp[39m: [35mGET / 304 - - 0.637 ms[39m
+[35m[39m
+2023-06-05 16:10:40 - [35mhttp[39m: [35mGET /static/js/main.c88493f1.js 404 165 - 0.598 ms[39m
+[35m[39m
+2023-06-05 16:10:40 - [35mhttp[39m: [35mGET /static/css/main.d9e35400.css 404 167 - 1.085 ms[39m
+[35m[39m
+2023-06-05 16:10:40 - [35mhttp[39m: [35mGET /manifest.json 404 152 - 0.416 ms[39m
+[35m[39m
+2023-06-05 16:10:55 - [35mhttp[39m: [35mGET /modle/dawe 404 149 - 0.505 ms[39m
+[35m[39m
+2023-06-05 16:11:01 - [31merror[39m: [31mCast to ObjectId failed for value "dawe" (type string) at path "_id" for model "Module"[39m
+2023-06-05 16:11:01 - [35mhttp[39m: [35mGET /module/dawe 500 62 - 6.035 ms[39m
+[35m[39m
+2023-06-05 16:11:01 - [35mhttp[39m: [35mGET /favicon.ico 404 150 - 0.435 ms[39m
+[35m[39m
+2023-06-05 16:11:10 - [31merror[39m: [31mCast to ObjectId failed for value "dawe" (type string) at path "_id" for model "Module"[39m
+2023-06-05 16:11:10 - [35mhttp[39m: [35mGET /module/dawe 500 62 - 1.134 ms[39m
+[35m[39m
+2023-06-05 16:11:11 - [35mhttp[39m: [35mGET /manifest.json 404 152 - 0.455 ms[39m
+[35m[39m
+2023-06-05 16:12:31 - [32minfo[39m: [32mdb connected![39m
+2023-06-05 16:12:31 - [32minfo[39m: [32mServer Running on 5000[39m
+2023-06-05 16:12:35 - [35mhttp[39m: [35mGET / 304 - - 2.764 ms[39m
+[35m[39m
+2023-06-05 16:12:35 - [35mhttp[39m: [35mGET /static/css/main.d9e35400.css 200 3210 - 3.558 ms[39m
+[35m[39m
+2023-06-05 16:12:35 - [35mhttp[39m: [35mGET /static/js/main.c88493f1.js 200 538011 - 3.859 ms[39m
+[35m[39m
+2023-06-05 16:12:35 - [35mhttp[39m: [35mGET /logo.png 200 28756 - 2.489 ms[39m
+[35m[39m
+2023-06-05 16:12:35 - [35mhttp[39m: [35mGET /module/all 200 415 - 30.587 ms[39m
+[35m[39m
+2023-06-05 16:12:35 - [35mhttp[39m: [35mGET /manifest.json 200 492 - 0.643 ms[39m
+[35m[39m
+2023-06-05 16:12:35 - [35mhttp[39m: [35mGET /logo192.png 200 5347 - 1.107 ms[39m
+[35m[39m
+2023-06-05 16:12:59 - [31merror[39m: [31mCast to ObjectId failed for value "logo.png" (type string) at path "_id" for model "Module"[39m
+2023-06-05 16:12:59 - [35mhttp[39m: [35mGET /module/logo.png 500 62 - 4.861 ms[39m
+[35m[39m
+2023-06-05 16:12:59 - [35mhttp[39m: [35mGET /module/6467baf75a3b5917c803cc06 200 596 - 33.906 ms[39m
+[35m[39m
+2023-06-05 16:13:05 - [35mhttp[39m: [35mGET /lesson/6467c241cb23d0528a606fdb 200 2164 - 20.036 ms[39m
+[35m[39m
+2023-06-05 16:13:14 - [31merror[39m: [31mCast to ObjectId failed for value "logo.png" (type string) at path "_id" for model "Module"[39m
+2023-06-05 16:13:14 - [35mhttp[39m: [35mGET /module/logo.png 500 62 - 1.734 ms[39m
+[35m[39m

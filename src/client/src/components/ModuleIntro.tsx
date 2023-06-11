@@ -10,15 +10,9 @@ interface LessonModule{
     logo: string;
 }
 
-interface SubjectColor {
-    bgColor: string,
-    color: string
-}
-
-
 
 function ModuleIntro(props: LessonModule){
-    const subjectsColors: SubjectColor[] = []
+    
     const matches = useMediaQuery<any>((theme) => theme.breakpoints.up('md'));
  
 

@@ -3707,3 +3707,270 @@
 2023-06-05 16:13:14 - [31merror[39m: [31mCast to ObjectId failed for value "logo.png" (type string) at path "_id" for model "Module"[39m
 2023-06-05 16:13:14 - [35mhttp[39m: [35mGET /module/logo.png 500 62 - 1.734 ms[39m
 [35m[39m
+2023-06-06 20:11:20 - [32minfo[39m: [32mdb connected![39m
+2023-06-06 20:11:20 - [32minfo[39m: [32mServer Running on 5000[39m
+2023-06-06 20:11:40 - [35mhttp[39m: [35mGET / 200 646 - 26.242 ms[39m
+[35m[39m
+2023-06-06 20:11:40 - [35mhttp[39m: [35mGET /static/css/main.d9e35400.css 200 3210 - 7.821 ms[39m
+[35m[39m
+2023-06-06 20:11:40 - [35mhttp[39m: [35mGET /static/js/main.c88493f1.js 200 538011 - 7.763 ms[39m
+[35m[39m
+2023-06-06 20:11:40 - [35mhttp[39m: [35mGET /logo.png 304 - - 2.375 ms[39m
+[35m[39m
+2023-06-06 20:11:40 - [35mhttp[39m: [35mGET /module/all 200 415 - 94.174 ms[39m
+[35m[39m
+2023-06-06 20:11:41 - [35mhttp[39m: [35mGET /manifest.json 304 - - 0.759 ms[39m
+[35m[39m
+2023-06-06 20:11:41 - [35mhttp[39m: [35mGET /logo.png 304 - - 1.042 ms[39m
+[35m[39m
+2023-06-06 20:11:41 - [35mhttp[39m: [35mGET /logo192.png 200 5347 - 2.256 ms[39m
+[35m[39m
+2023-06-06 23:10:28 - [35mhttp[39m: [35mGET / 304 - - 9.264 ms[39m
+[35m[39m
+2023-06-06 23:10:28 - [35mhttp[39m: [35mGET /static/js/main.c88493f1.js 304 - - 1.691 ms[39m
+[35m[39m
+2023-06-06 23:10:28 - [35mhttp[39m: [35mGET /static/css/main.d9e35400.css 304 - - 1.021 ms[39m
+[35m[39m
+2023-06-06 23:10:29 - [35mhttp[39m: [35mGET /logo.png 304 - - 0.902 ms[39m
+[35m[39m
+2023-06-06 23:10:29 - [35mhttp[39m: [35mGET /module/all 304 - - 246.603 ms[39m
+[35m[39m
+2023-06-06 23:10:32 - [35mhttp[39m: [35mGET /manifest.json 304 - - 1.082 ms[39m
+[35m[39m
+2023-06-06 23:10:32 - [35mhttp[39m: [35mGET /logo192.png 304 - - 0.853 ms[39m
+[35m[39m
+2023-06-07 17:33:24 - [32minfo[39m: [32mdb connected![39m
+2023-06-07 17:33:24 - [32minfo[39m: [32mServer Running on 5000[39m
+2023-06-07 17:33:48 - [35mhttp[39m: [35mGET /module/all 304 - - 33.931 ms[39m
+[35m[39m
+2023-06-07 17:33:48 - [35mhttp[39m: [35mGET /module/all 304 - - 16.895 ms[39m
+[35m[39m
+2023-06-07 19:10:46 - [35mhttp[39m: [35mGET /module/all 304 - - 19.912 ms[39m
+[35m[39m
+2023-06-07 19:10:46 - [35mhttp[39m: [35mGET /module/all 304 - - 15.223 ms[39m
+[35m[39m
+2023-06-07 19:11:58 - [35mhttp[39m: [35mGET /module/all 304 - - 15.471 ms[39m
+[35m[39m
+2023-06-07 19:11:58 - [35mhttp[39m: [35mGET /module/all 304 - - 15.734 ms[39m
+[35m[39m
+2023-06-07 19:11:58 - [35mhttp[39m: [35mGET /manifest.json 404 152 - 2.590 ms[39m
+[35m[39m
+2023-06-07 19:12:15 - [35mhttp[39m: [35mGET /module/all 304 - - 18.675 ms[39m
+[35m[39m
+2023-06-07 19:12:15 - [35mhttp[39m: [35mGET /module/all 304 - - 15.540 ms[39m
+[35m[39m
+2023-06-07 19:12:15 - [35mhttp[39m: [35mGET /manifest.json 404 152 - 0.610 ms[39m
+[35m[39m
+2023-06-07 19:12:47 - [35mhttp[39m: [35mGET /module/6467baf75a3b5917c803cc06 304 - - 21.267 ms[39m
+[35m[39m
+2023-06-07 19:12:47 - [35mhttp[39m: [35mGET /module/6467baf75a3b5917c803cc06 304 - - 15.066 ms[39m
+[35m[39m
+2023-06-07 19:12:53 - [35mhttp[39m: [35mGET /module/all 304 - - 15.177 ms[39m
+[35m[39m
+2023-06-07 19:12:53 - [35mhttp[39m: [35mGET /module/all 304 - - 16.550 ms[39m
+[35m[39m
+2023-06-07 19:12:55 - [35mhttp[39m: [35mGET /module/6467baf75a3b5917c803cc06 304 - - 16.222 ms[39m
+[35m[39m
+2023-06-07 19:12:56 - [35mhttp[39m: [35mGET /module/6467baf75a3b5917c803cc06 304 - - 14.879 ms[39m
+[35m[39m
+2023-06-07 19:13:06 - [35mhttp[39m: [35mGET /lesson/6467c241cb23d0528a606fdb 200 2164 - 17.928 ms[39m
+[35m[39m
+2023-06-07 19:13:07 - [35mhttp[39m: [35mGET /lesson/6467c241cb23d0528a606fdb 304 - - 15.146 ms[39m
+[35m[39m
+2023-06-07 19:13:23 - [35mhttp[39m: [35mGET /module/all 304 - - 15.464 ms[39m
+[35m[39m
+2023-06-07 19:13:23 - [35mhttp[39m: [35mGET /module/all 304 - - 14.877 ms[39m
+[35m[39m
+2023-06-07 19:18:33 - [35mhttp[39m: [35mGET /manifest.json 404 152 - 0.529 ms[39m
+[35m[39m
+2023-06-07 19:18:35 - [35mhttp[39m: [35mGET /module/all 304 - - 20.805 ms[39m
+[35m[39m
+2023-06-07 19:18:35 - [35mhttp[39m: [35mGET /module/all 304 - - 24.872 ms[39m
+[35m[39m
+2023-06-07 19:18:35 - [35mhttp[39m: [35mGET /manifest.json 404 152 - 1.402 ms[39m
+[35m[39m
+2023-06-07 19:18:41 - [35mhttp[39m: [35mGET /module/all 304 - - 15.003 ms[39m
+[35m[39m
+2023-06-07 19:18:41 - [35mhttp[39m: [35mGET /module/all 304 - - 15.028 ms[39m
+[35m[39m
+2023-06-07 19:18:41 - [35mhttp[39m: [35mGET /manifest.json 404 152 - 0.443 ms[39m
+[35m[39m
+2023-06-07 19:18:46 - [35mhttp[39m: [35mGET /module/all 304 - - 15.303 ms[39m
+[35m[39m
+2023-06-07 19:18:46 - [35mhttp[39m: [35mGET /module/all 304 - - 15.700 ms[39m
+[35m[39m
+2023-06-07 19:18:47 - [35mhttp[39m: [35mGET /manifest.json 404 152 - 0.570 ms[39m
+[35m[39m
+2023-06-07 19:18:57 - [35mhttp[39m: [35mGET /module/all 304 - - 16.066 ms[39m
+[35m[39m
+2023-06-07 19:18:57 - [35mhttp[39m: [35mGET /module/all 304 - - 15.109 ms[39m
+[35m[39m
+2023-06-07 19:18:58 - [35mhttp[39m: [35mGET /module/all 304 - - 15.980 ms[39m
+[35m[39m
+2023-06-07 19:18:58 - [35mhttp[39m: [35mGET /module/all 304 - - 15.446 ms[39m
+[35m[39m
+2023-06-07 19:18:58 - [35mhttp[39m: [35mGET /manifest.json 404 152 - 0.458 ms[39m
+[35m[39m
+2023-06-07 19:19:06 - [35mhttp[39m: [35mGET /module/all 304 - - 15.400 ms[39m
+[35m[39m
+2023-06-07 19:19:06 - [35mhttp[39m: [35mGET /module/all 304 - - 15.022 ms[39m
+[35m[39m
+2023-06-07 19:19:07 - [35mhttp[39m: [35mGET /manifest.json 404 152 - 0.613 ms[39m
+[35m[39m
+2023-06-07 19:19:10 - [35mhttp[39m: [35mGET /manifest.json 404 152 - 0.456 ms[39m
+[35m[39m
+2023-06-07 19:19:18 - [35mhttp[39m: [35mGET /module/all 304 - - 17.902 ms[39m
+[35m[39m
+2023-06-07 19:19:18 - [35mhttp[39m: [35mGET /module/all 304 - - 15.752 ms[39m
+[35m[39m
+2023-06-07 19:19:19 - [35mhttp[39m: [35mGET /manifest.json 404 152 - 0.533 ms[39m
+[35m[39m
+2023-06-07 19:20:12 - [35mhttp[39m: [35mGET /manifest.json 404 152 - 1.655 ms[39m
+[35m[39m
+2023-06-07 19:21:59 - [35mhttp[39m: [35mGET /module/6467baf75a3b5917c803cc06 304 - - 19.845 ms[39m
+[35m[39m
+2023-06-07 19:22:00 - [35mhttp[39m: [35mGET /module/6467baf75a3b5917c803cc06 304 - - 22.274 ms[39m
+[35m[39m
+2023-06-07 19:23:18 - [35mhttp[39m: [35mGET /lesson/6467c241cb23d0528a606fdb 304 - - 17.590 ms[39m
+[35m[39m
+2023-06-07 19:23:18 - [35mhttp[39m: [35mGET /lesson/6467c241cb23d0528a606fdb 304 - - 18.308 ms[39m
+[35m[39m
+2023-06-07 19:24:08 - [35mhttp[39m: [35mGET /module/all 304 - - 15.671 ms[39m
+[35m[39m
+2023-06-07 19:24:08 - [35mhttp[39m: [35mGET /module/all 304 - - 15.332 ms[39m
+[35m[39m
+2023-06-07 19:24:09 - [35mhttp[39m: [35mGET /module/6467baf75a3b5917c803cc06 304 - - 24.660 ms[39m
+[35m[39m
+2023-06-07 19:24:09 - [35mhttp[39m: [35mGET /module/6467baf75a3b5917c803cc06 304 - - 18.249 ms[39m
+[35m[39m
+2023-06-07 19:25:03 - [35mhttp[39m: [35mGET /lesson/6467c241cb23d0528a606fdb 304 - - 15.792 ms[39m
+[35m[39m
+2023-06-07 19:25:03 - [35mhttp[39m: [35mGET /lesson/6467c241cb23d0528a606fdb 304 - - 15.729 ms[39m
+[35m[39m
+2023-06-07 19:25:08 - [35mhttp[39m: [35mGET /module/all 304 - - 16.218 ms[39m
+[35m[39m
+2023-06-07 19:25:09 - [35mhttp[39m: [35mGET /module/all 304 - - 14.493 ms[39m
+[35m[39m
+2023-06-07 19:25:10 - [35mhttp[39m: [35mGET /module/6467baf75a3b5917c803cc06 304 - - 20.535 ms[39m
+[35m[39m
+2023-06-07 19:25:10 - [35mhttp[39m: [35mGET /module/6467baf75a3b5917c803cc06 304 - - 14.614 ms[39m
+[35m[39m
+2023-06-07 19:25:37 - [35mhttp[39m: [35mGET /module/all 304 - - 15.928 ms[39m
+[35m[39m
+2023-06-07 19:25:37 - [35mhttp[39m: [35mGET /module/all 304 - - 13.984 ms[39m
+[35m[39m
+2023-06-09 15:39:54 - [35mhttp[39m: [35mGET /manifest.json 404 152 - 5.868 ms[39m
+[35m[39m
+2023-06-09 15:40:07 - [31merror[39m: [31mdb did not connect![39m
+2023-06-09 15:43:03 - [35mhttp[39m: [35mGET /manifest.json 404 152 - 4.345 ms[39m
+[35m[39m
+2023-06-09 15:43:25 - [31merror[39m: [31mdb did not connect![39m
+2023-06-09 15:45:40 - [35mhttp[39m: [35mGET /manifest.json 404 152 - 3.038 ms[39m
+[35m[39m
+2023-06-09 15:46:03 - [31merror[39m: [31mdb did not connect![39m
+2023-06-09 15:48:34 - [35mhttp[39m: [35mGET /manifest.json 404 152 - 3.323 ms[39m
+[35m[39m
+2023-06-09 15:48:57 - [31merror[39m: [31mdb did not connect![39m
+2023-06-09 15:49:12 - [35mhttp[39m: [35mGET /logo192.png 404 150 - 5.597 ms[39m
+[35m[39m
+2023-06-09 15:49:35 - [31merror[39m: [31mdb did not connect![39m
+2023-06-09 15:52:45 - [31merror[39m: [31mdb did not connect![39m
+2023-06-09 15:53:25 - [35mhttp[39m: [35mGET /logo192.png 404 150 - 7.256 ms[39m
+[35m[39m
+2023-06-09 15:53:47 - [31merror[39m: [31mdb did not connect![39m
+2023-06-09 16:09:21 - [35mhttp[39m: [35mGET /logo192.png 404 150 - 4.344 ms[39m
+[35m[39m
+2023-06-09 16:11:55 - [31merror[39m: [31mdb did not connect![39m
+2023-06-09 16:13:45 - [31merror[39m: [31mdb did not connect![39m
+2023-06-09 16:15:14 - [31merror[39m: [31mdb did not connect![39m
+2023-06-09 16:17:24 - [31merror[39m: [31mdb did not connect![39m
+2023-06-09 16:21:15 - [31merror[39m: [31mdb did not connect![39m
+2023-06-09 16:23:47 - [31merror[39m: [31mdb did not connect![39m
+2023-06-09 16:24:31 - [31merror[39m: [31mdb did not connect![39m
+2023-06-09 16:27:08 - [31merror[39m: [31mdb did not connect![39m
+2023-06-09 16:30:11 - [32minfo[39m: [32mdb connected![39m
+2023-06-09 16:30:11 - [32minfo[39m: [32mServer Running on 5000[39m
+2023-06-09 16:35:06 - [35mhttp[39m: [35mGET /logo192.png 404 150 - 3.543 ms[39m
+[35m[39m
+2023-06-09 16:36:07 - [35mhttp[39m: [35mGET /module/all 200 57 - 102.400 ms[39m
+[35m[39m
+2023-06-09 16:36:07 - [35mhttp[39m: [35mGET /module/all 304 - - 82.677 ms[39m
+[35m[39m
+2023-06-09 16:36:08 - [35mhttp[39m: [35mGET /logo192.png 404 150 - 0.545 ms[39m
+[35m[39m
+2023-06-09 16:36:18 - [35mhttp[39m: [35mGET /logo192.png 404 150 - 0.428 ms[39m
+[35m[39m
+2023-06-09 16:36:18 - [35mhttp[39m: [35mGET /module/all 304 - - 206.952 ms[39m
+[35m[39m
+2023-06-09 16:36:18 - [35mhttp[39m: [35mGET /module/all 304 - - 209.131 ms[39m
+[35m[39m
+2023-06-09 16:40:16 - [35mhttp[39m: [35mGET /logo192.png 404 150 - 0.540 ms[39m
+[35m[39m
+2023-06-09 16:43:19 - [35mhttp[39m: [35mGET /module/all 304 - - 81.227 ms[39m
+[35m[39m
+2023-06-09 16:43:19 - [35mhttp[39m: [35mGET /module/all 304 - - 72.448 ms[39m
+[35m[39m
+2023-06-09 16:43:20 - [35mhttp[39m: [35mGET /logo192.png 404 150 - 0.355 ms[39m
+[35m[39m
+2023-06-09 16:44:31 - [35mhttp[39m: [35mGET /module/all 200 57 - 98.658 ms[39m
+[35m[39m
+2023-06-09 16:46:54 - [32minfo[39m: [32mdb connected![39m
+2023-06-09 16:46:54 - [32minfo[39m: [32mServer Running on 5000[39m
+2023-06-09 16:47:03 - [35mhttp[39m: [35mGET /module/all 200 57 - 89.927 ms[39m
+[35m[39m
+2023-06-09 16:47:21 - [31merror[39m: [31mCannot read properties of null (reading 'lessons')[39m
+2023-06-09 16:47:21 - [35mhttp[39m: [35mGET /module/6467baf75a3b5917c803cc06/lessons 500 62 - 130.689 ms[39m
+[35m[39m
+2023-06-09 16:47:33 - [35mhttp[39m: [35mGET /module/6467baf75a3b5917c803cc06 400 110 - 81.003 ms[39m
+[35m[39m
+2023-06-09 16:47:56 - [35mhttp[39m: [35mGET /module/6467baf75a3b5917c803cc06 400 110 - 97.127 ms[39m
+[35m[39m
+2023-06-09 16:48:21 - [31merror[39m: [31mCannot read properties of null (reading 'lessons')[39m
+2023-06-09 16:48:21 - [35mhttp[39m: [35mGET /module/6467baf75a3b5917c803cc06/lessons 500 62 - 135.582 ms[39m
+[35m[39m
+2023-06-09 16:50:10 - [32minfo[39m: [32mdb connected![39m
+2023-06-09 16:50:10 - [32minfo[39m: [32mServer Running on 5000[39m
+2023-06-09 16:50:17 - [35mhttp[39m: [35mGET /module/all 200 57 - 90.921 ms[39m
+[35m[39m
+2023-06-09 16:50:24 - [31merror[39m: [31mCannot read properties of null (reading 'lessons')[39m
+2023-06-09 16:50:24 - [35mhttp[39m: [35mGET /module/6467baf75a3b5917c803cc06/lessons 500 62 - 112.091 ms[39m
+[35m[39m
+2023-06-09 16:52:15 - [35mhttp[39m: [35mGET /lesson/6467c241cb23d0528a606fdb 204 - - 84.235 ms[39m
+[35m[39m
+2023-06-09 16:52:22 - [35mhttp[39m: [35mGET /module/6467baf75a3b5917c803cc06 400 110 - 83.733 ms[39m
+[35m[39m
+2023-06-09 16:52:25 - [35mhttp[39m: [35mGET /module/all 200 57 - 96.743 ms[39m
+[35m[39m
+2023-06-09 17:00:46 - [32minfo[39m: [32mdb connected![39m
+2023-06-09 17:00:46 - [32minfo[39m: [32mServer Running on 5000[39m
+2023-06-09 17:00:54 - [35mhttp[39m: [35mGET /module/all 200 415 - 127.288 ms[39m
+[35m[39m
+2023-06-09 17:00:55 - [35mhttp[39m: [35mGET /module/all 304 - - 107.954 ms[39m
+[35m[39m
+2023-06-09 17:01:13 - [35mhttp[39m: [35mGET /module/6467baf75a3b5917c803cc06 304 - - 102.607 ms[39m
+[35m[39m
+2023-06-09 17:01:14 - [35mhttp[39m: [35mGET /module/6467baf75a3b5917c803cc06 304 - - 104.530 ms[39m
+[35m[39m
+2023-06-09 17:01:16 - [35mhttp[39m: [35mGET /lesson/6467c241cb23d0528a606fdb 304 - - 87.088 ms[39m
+[35m[39m
+2023-06-09 17:01:17 - [35mhttp[39m: [35mGET /lesson/6467c241cb23d0528a606fdb 304 - - 77.323 ms[39m
+[35m[39m
+2023-06-09 17:01:20 - [35mhttp[39m: [35mGET /module/all 304 - - 109.480 ms[39m
+[35m[39m
+2023-06-09 17:01:20 - [35mhttp[39m: [35mGET /module/all 304 - - 127.057 ms[39m
+[35m[39m
+2023-06-09 17:02:26 - [31merror[39m: [31mOperation `modules.find()` buffering timed out after 10000ms[39m
+2023-06-09 17:02:26 - [35mhttp[39m: [35mGET /module/all 500 62 - 10024.642 ms[39m
+[35m[39m
+2023-06-09 17:02:36 - [31merror[39m: [31mOperation `modules.find()` buffering timed out after 10000ms[39m
+2023-06-09 17:02:36 - [35mhttp[39m: [35mGET /module/all 500 62 - 10006.329 ms[39m
+[35m[39m
+2023-06-09 17:02:39 - [31merror[39m: [31mdb did not connect![39m
+2023-06-10 12:15:52 - [31merror[39m: [31mOperation `modules.find()` buffering timed out after 10000ms[39m
+2023-06-10 12:15:52 - [35mhttp[39m: [35mGET /module/all 500 62 - 10027.365 ms[39m
+[35m[39m
+2023-06-10 12:15:56 - [31merror[39m: [31mdb did not connect![39m
+2023-06-11 13:59:28 - [31merror[39m: [31mOperation `modules.find()` buffering timed out after 10000ms[39m
+2023-06-11 13:59:28 - [35mhttp[39m: [35mGET /module/all 500 62 - 10024.431 ms[39m
+[35m[39m
+2023-06-11 13:59:37 - [31merror[39m: [31mdb did not connect![39m

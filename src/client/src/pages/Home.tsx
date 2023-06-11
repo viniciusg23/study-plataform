@@ -2,11 +2,16 @@ import '../App.css';
 import { useEffect, useState } from "react";
 import NavBar from '../components/NavBar';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
-import { Container, Typography } from '@mui/material';
+import { Container, Theme, Typography } from '@mui/material';
 import MainBanner from '../components/MainBanner';
 import Body from '../components/Body';
 import Module from '../components/Module';
 import { Link } from 'react-router-dom';
+import { Box, Divider, styled } from "@mui/material";
+import useMediaQuery from '@mui/material/useMediaQuery';
+import { useTheme } from '@mui/material/styles';
+import EastIcon from '@mui/icons-material/East';
+
 
 const darkTheme = createTheme({
   palette: {
@@ -14,11 +19,6 @@ const darkTheme = createTheme({
   },
 });
 
-// const banner = {
-//   image: "https://img.freepik.com/vetores-gratis/laptop-com-icone-de-codigo-isometrico-de-programa-desenvolvimento-de-software-e-aplicacoes-de-programacao-neon-escuro_39422-971.jpg?w=996&t=st=1684600205~exp=1684600805~hmac=62daee99ae6c9d0dfa4f9661f318f2493f000f74c33d2d86f82a23ebd7b94248",
-//   imageText: "Banner de apresentação da plataforma",
-//   title: "<Crafting Code/>"
-// }
 
 interface ModuleItem {
   _id: string
@@ -30,7 +30,24 @@ interface ModuleItem {
   __v: number
 }
 
+const m: ModuleItem = {
+  _id: "",
+  title: "Programação em C",
+  subtitle: "Aprenda o básico de programação com a linguagem C",
+  logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg",
+  createdAt: "",
+  updatedAt: "",
+  __v: 0
+}
+
 function Home(){
+  const theme = useTheme();
+  const matches = useMediaQuery(theme.breakpoints.up('md'));
+
+  if(matches){
+    console.log(matches)
+  }
+
   const [data, setData] = useState<ModuleItem[]>([]);
 
   useEffect(() => {
@@ -55,21 +72,54 @@ function Home(){
 
       <ThemeProvider theme={darkTheme}>
         <NavBar/>
-        <MainBanner ></MainBanner>
+        <MainBanner matches={matches}></MainBanner>
 
         <Container sx={{marginTop: "2em"}}>
-          <Typography component="h2" variant="h4" style={{textAlign: 'left', fontWeight: "600", color: "white"}}>{"Módulos 📚"}</Typography>
+          {matches ? (
+            <Box style={{display: "flex", alignItems: "center"}}>
+            <Typography 
+              component="h2"
+              style={{
+                fontSize: 28,
+                textAlign: 'left', 
+                fontWeight: "600", 
+                color: "white"
+                }}
+            >
+              Módulos
+            </Typography>
+            <EastIcon style={{marginLeft: 10, color: "white", opacity: .3}}/>
+          </Box>
+          ) : (
+            <Box style={{display: "flex", alignItems: "center"}}>
+              <Typography 
+                component="h2"
+                style={{
+                  fontSize: 26,
+                  textAlign: 'left', 
+                  fontWeight: "600", 
+                  color: "white"
+                  }}
+              >
+                Módulos
+              </Typography>
+              <EastIcon style={{marginLeft: 10, color: "white", opacity: .3}}/>
+            </Box>
+            
+            
+          )}
           
           <div style={{marginTop: 20}}>
             
             {data.map((item, index) => (
               <Link className='link' key={index} to={`module/${item._id}`} >
                 
-                {<Module module={item}></Module>}
+                {<Module module={item} matches={matches}></Module>}
 
               </Link>
             ))}
 
+            {<Module module={m} matches={matches}></Module>}
           </div>
           
         </Container>

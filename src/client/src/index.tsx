@@ -7,6 +7,8 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Home from "./pages/Home";
 import ModuleLesson from './pages/ModuleLesson';
 import ErrorPage from './components/ErrorPage';
+import About from './pages/About';
+import Contact from './pages/Contact';
 
 const router = createBrowserRouter([
   {
@@ -23,7 +25,12 @@ const router = createBrowserRouter([
         element: <ModuleLesson />
       },
       {
-        
+        path: "/about",
+        element: <About />
+      },
+      {
+        path: "/contact",
+        element: <Contact />
       }
     ]
   }

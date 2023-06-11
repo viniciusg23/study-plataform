@@ -30,7 +30,6 @@ function InfoModal() {
 
     const [open, setOpen] = React.useState(false);
     const theme = useTheme();
-    const fullScreen = useMediaQuery(theme.breakpoints.down('md'));
   
     const handleClickOpen = () => {
       setOpen(true);
@@ -53,7 +52,7 @@ function InfoModal() {
         }
     }
   
-    const label = { inputProps: { 'aria-label': 'Não mostrar novamente' } };
+    // const label = { inputProps: { 'aria-label': 'Não mostrar novamente' } };
     
   
     return (
@@ -62,7 +61,6 @@ function InfoModal() {
           <HelpOutlineIcon />
         </IconButton>
         <Dialog
-          fullScreen={fullScreen}
           open={open}
           onClose={handleClose}
           aria-labelledby="responsive-dialog-title"

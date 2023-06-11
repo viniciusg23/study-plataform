@@ -1,4 +1,4 @@
-import "../App.css";
+import AddCircleIcon from '@mui/icons-material/AddCircle';
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import CssBaseline from '@mui/material/CssBaseline';
@@ -10,16 +10,15 @@ import ListItem from '@mui/material/ListItem';
 import ListItemButton from '@mui/material/ListItemButton';
 import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
-import AddCircleIcon from '@mui/icons-material/AddCircle';
+import Skeleton from '@mui/material/Skeleton/Skeleton';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
-import ModuleIntro from '../components/ModuleIntro';
-import { useEffect, useState, MouseEvent } from 'react';
-import { useParams } from "react-router-dom"
-import Skeleton from '@mui/material/Skeleton/Skeleton';
+import { MouseEvent, useEffect, useState } from 'react';
+import { Link, useParams } from "react-router-dom";
+import "../App.css";
 import Lesson from "../components/Lesson";
-import { Link } from "react-router-dom";
+import ModuleIntro from '../components/ModuleIntro';
 
 const darkTheme = createTheme({
   palette: {
@@ -29,12 +28,6 @@ const darkTheme = createTheme({
 const drawerWidth = 300;
 interface Props {
   window?: () => Window;
-}
-
-interface Event{
-  target: {
-    id: string
-  }
 }
 
 interface ModuleInfo{

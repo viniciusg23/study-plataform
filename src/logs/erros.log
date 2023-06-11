@@ -759,3 +759,28 @@
 2023-06-05 16:11:10 - [31merror[39m: [31mCast to ObjectId failed for value "dawe" (type string) at path "_id" for model "Module"[39m
 2023-06-05 16:12:59 - [31merror[39m: [31mCast to ObjectId failed for value "logo.png" (type string) at path "_id" for model "Module"[39m
 2023-06-05 16:13:14 - [31merror[39m: [31mCast to ObjectId failed for value "logo.png" (type string) at path "_id" for model "Module"[39m
+2023-06-09 15:40:07 - [31merror[39m: [31mdb did not connect![39m
+2023-06-09 15:43:25 - [31merror[39m: [31mdb did not connect![39m
+2023-06-09 15:46:03 - [31merror[39m: [31mdb did not connect![39m
+2023-06-09 15:48:57 - [31merror[39m: [31mdb did not connect![39m
+2023-06-09 15:49:35 - [31merror[39m: [31mdb did not connect![39m
+2023-06-09 15:52:45 - [31merror[39m: [31mdb did not connect![39m
+2023-06-09 15:53:47 - [31merror[39m: [31mdb did not connect![39m
+2023-06-09 16:11:55 - [31merror[39m: [31mdb did not connect![39m
+2023-06-09 16:13:45 - [31merror[39m: [31mdb did not connect![39m
+2023-06-09 16:15:14 - [31merror[39m: [31mdb did not connect![39m
+2023-06-09 16:17:24 - [31merror[39m: [31mdb did not connect![39m
+2023-06-09 16:21:15 - [31merror[39m: [31mdb did not connect![39m
+2023-06-09 16:23:47 - [31merror[39m: [31mdb did not connect![39m
+2023-06-09 16:24:31 - [31merror[39m: [31mdb did not connect![39m
+2023-06-09 16:27:08 - [31merror[39m: [31mdb did not connect![39m
+2023-06-09 16:47:21 - [31merror[39m: [31mCannot read properties of null (reading 'lessons')[39m
+2023-06-09 16:48:21 - [31merror[39m: [31mCannot read properties of null (reading 'lessons')[39m
+2023-06-09 16:50:24 - [31merror[39m: [31mCannot read properties of null (reading 'lessons')[39m
+2023-06-09 17:02:26 - [31merror[39m: [31mOperation `modules.find()` buffering timed out after 10000ms[39m
+2023-06-09 17:02:36 - [31merror[39m: [31mOperation `modules.find()` buffering timed out after 10000ms[39m
+2023-06-09 17:02:39 - [31merror[39m: [31mdb did not connect![39m
+2023-06-10 12:15:52 - [31merror[39m: [31mOperation `modules.find()` buffering timed out after 10000ms[39m
+2023-06-10 12:15:56 - [31merror[39m: [31mdb did not connect![39m
+2023-06-11 13:59:28 - [31merror[39m: [31mOperation `modules.find()` buffering timed out after 10000ms[39m
+2023-06-11 13:59:37 - [31merror[39m: [31mdb did not connect![39m

@@ -7,21 +7,28 @@ import Typography from '@mui/material/Typography';
 import Menu from '@mui/material/Menu';
 import MenuIcon from '@mui/icons-material/Menu';
 import Container from '@mui/material/Container';
-import Avatar from '@mui/material/Avatar';
 import Button from '@mui/material/Button';
-import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
-import AdbIcon from '@mui/icons-material/Adb';
 import CodeIcon from '@mui/icons-material/Code';
 import InfoModal from './InfoModal';
+import { Link } from 'react-router-dom';
 
 
-const pages = ['Início', 'Sobre', 'Contato'];
+// const pages = ['Início', 'Sobre', 'Contato'];
+const pages = [
+  {
+    name: "Início",
+    link: "/"
+  },
+  {
+    name: "Sobre",
+    link: "/about"
+  },
+]
 
 
 function NavBar() {
   const [anchorElNav, setAnchorElNav] = React.useState<null | HTMLElement>(null);
-  // const [anchorElUser, setAnchorElUser] = React.useState<null | HTMLElement>(null);
 
   const handleOpenNavMenu = (event: React.MouseEvent<HTMLElement>) => {
     setAnchorElNav(event.currentTarget);
@@ -35,24 +42,30 @@ function NavBar() {
     <AppBar position="static">
       <Container maxWidth="xl">
         <Toolbar disableGutters>
-          <CodeIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
-          <Typography
-            variant="h6"
-            noWrap
-            component="a"
-            href="/"
-            sx={{
-              mr: 2,
-              display: { xs: 'none', md: 'flex' },
-              fontFamily: 'monospace',
-              fontWeight: 700,
-              letterSpacing: '.3rem',
-              color: 'inherit',
-              textDecoration: 'none',
-            }}
-          >
-            CODE
-          </Typography>
+          <Link to={"/"} className="link">
+            <Typography
+              variant="h6"
+              noWrap
+              component="a"
+              href="/"
+              sx={{
+                mr: 2,
+                display: { xs: 'none', md: 'flex' },
+                fontFamily: 'monospace',
+                fontWeight: 700,
+                letterSpacing: '.3rem',
+                color: 'inherit',
+                textDecoration: 'none',
+              }}
+            >
+              <Typography className="textLogo" variant="h6" noWrap component="div">
+                <span>&lt;</span>
+                <p>C</p>
+                <p>C</p>
+                <span>/&gt;</span>
+              </Typography>
+            </Typography>
+          </Link>
 
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
             <IconButton
@@ -84,13 +97,15 @@ function NavBar() {
               }}
             >
               {pages.map((page) => (
-                <MenuItem key={page} onClick={handleCloseNavMenu}>
-                  <Typography textAlign="center">{page}</Typography>
-                </MenuItem>
+                <Link to={page.link} className="link" style={{color: "white"}}>
+                  <MenuItem onClick={handleCloseNavMenu}>
+                    <Typography textAlign="center">{page.name}</Typography>
+                  </MenuItem>
+                </Link>
+                
               ))}
             </Menu>
           </Box>
-          <CodeIcon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} />
           <Typography
             variant="h5"
             noWrap
@@ -107,17 +122,25 @@ function NavBar() {
               textDecoration: 'none',
             }}
           >
-            CODE
+            <Typography className="textLogo" variant="h6" noWrap component="div">
+                <span>&lt;</span>
+                <p>Crafting</p>
+                <p>Code</p>
+                <span>/&gt;</span>
+              </Typography>
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex', alignItems: "center" } }}>
             {pages.map((page) => (
-              <Button
-                key={page}
-                onClick={handleCloseNavMenu}
-                sx={{ my: 2, color: 'white', display: 'block' }}
-              >
-                {page}
-              </Button>
+              <Link to={page.link} className="link" style={{color: "white"}}>
+                <Button
+                  key={page.name}
+                  onClick={handleCloseNavMenu}
+                  sx={{ my: 2, color: 'white', display: 'block' }}
+                >
+                  {page.name}
+                </Button>
+              </Link>
+              
             ))}
             <InfoModal />
           </Box>

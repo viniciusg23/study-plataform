@@ -3974,3 +3974,7 @@
 2023-06-11 13:59:28 - [35mhttp[39m: [35mGET /module/all 500 62 - 10024.431 ms[39m
 [35m[39m
 2023-06-11 13:59:37 - [31merror[39m: [31mdb did not connect![39m
+2023-06-12 20:06:36 - [31merror[39m: [31mOperation `modules.find()` buffering timed out after 10000ms[39m
+2023-06-12 20:06:36 - [35mhttp[39m: [35mGET /module/all 500 62 - 10022.587 ms[39m
+[35m[39m
+2023-06-12 20:06:36 - [31merror[39m: [31mdb did not connect![39m

@@ -64,9 +64,9 @@ function Module(props: ModuleProps){
                     container
                     direction="row"
                     justifyContent="flex-start"
+                    alignItems="center"
                     padding={2}
                     columnSpacing={3}
-                    // style={{backgroundColor: "#323232"}}
                     >
                     <Grid item xs="auto" container>
                         <Box
@@ -84,7 +84,7 @@ function Module(props: ModuleProps){
                         style={{ textAlign: 'left'}}
                     >
                         <Typography component="h3" style={{ fontSize: 20 }}>{module.title}</Typography>
-                        <Typography>{module.subtitle} </Typography>
+                        <Typography style={{opacity: 0.7}}> {module.subtitle} </Typography>
                     </Grid>
                 </Grid>
             </Paper>

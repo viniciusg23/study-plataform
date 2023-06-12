@@ -1,16 +1,21 @@
 import '../App.css';
 import { useEffect, useState } from "react";
+import { 
+  ThemeProvider, 
+  createTheme, 
+  Container, 
+  Typography, 
+  Box, 
+  useMediaQuery, 
+  useTheme 
+} from '@mui/material';
 import NavBar from '../components/NavBar';
-import { ThemeProvider, createTheme } from '@mui/material/styles';
-import { Container, Theme, Typography } from '@mui/material';
 import MainBanner from '../components/MainBanner';
 import Body from '../components/Body';
 import Module from '../components/Module';
 import { Link } from 'react-router-dom';
-import { Box, Divider, styled } from "@mui/material";
-import useMediaQuery from '@mui/material/useMediaQuery';
-import { useTheme } from '@mui/material/styles';
 import EastIcon from '@mui/icons-material/East';
+
 
 
 const darkTheme = createTheme({
@@ -30,15 +35,15 @@ interface ModuleItem {
   __v: number
 }
 
-const m: ModuleItem = {
-  _id: "",
-  title: "Programação em C",
-  subtitle: "Aprenda o básico de programação com a linguagem C",
-  logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg",
-  createdAt: "",
-  updatedAt: "",
-  __v: 0
-}
+// const m: ModuleItem = {
+//   _id: "",
+//   title: "Programação em C",
+//   subtitle: "Aprenda o básico de programação com a linguagem C adawd awdawdawd awdawdawda dawdawdawdawdaw dawdaw",
+//   logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg",
+//   createdAt: "",
+//   updatedAt: "",
+//   __v: 0
+// }
 
 function Home(){
   const theme = useTheme();
@@ -119,7 +124,6 @@ function Home(){
               </Link>
             ))}
 
-            {<Module module={m} matches={matches}></Module>}
           </div>
           
         </Container>

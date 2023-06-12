@@ -41,6 +41,9 @@
   border: none;
 }
 
+.emailLink{
+  color: #03FA6E;
+}
 
 .bannerImg {
   width: 18rem;
